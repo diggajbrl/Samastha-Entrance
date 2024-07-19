@@ -1,0 +1,171 @@
+@import 'Basement/common';
+@import 'Basement/variable';
+@import 'Layouts/header';
+@import 'Layouts/footer';
+
+.Banner {
+    margin-top: 50px;
+
+    .row {
+        .Quote {
+            margin: auto;
+
+            h1 {
+                font-size: 5rem;
+                font-family: "Playfair Display", serif;
+                color: #152E40;
+            }
+        }
+
+        .Illustrator {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            figure {
+
+                img {
+                    max-width: 100%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+.Note {
+    background-color: $PrimeColor;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.Subscribe {
+    text-align: center;
+    background-color: $PrePrimeColor;
+    padding: 30px 0;
+
+    p {
+        margin: 10px 0;
+    }
+
+    form {
+        input {
+            border: 0.5px solid #c8c8c8;
+            background-color: $PrePrimeColor;
+            outline: none;
+            padding: 5px 10px;
+            width: 50%;
+        }
+
+        button {
+            background-color: $PrimeColor;
+            border: none;
+            padding: 5.5px 10px;
+            color: #fff;
+        }
+    }
+}
+
+.University-Table {
+    .University {
+        .Uni-Name {
+            // border-bottom: 0.5px solid $PrimeColor;
+            // margin-bottom: 10px;
+            background-color: $PrePrimeColor;
+            padding: 5px;
+            border-radius: 4px 4px 0 0;
+
+            p {
+                font-size: 1.1rem;
+                padding: 3px 0;
+                font-weight: bold;
+                color: $PrimeColor;
+            }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+            thead {
+                th {
+                    padding: 5px;
+                    border: 0.5px solid #c8c8c8;
+
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        padding: 10px;
+                        border: 0.5px solid #c8c8c8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.OurFacilities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 1.1rem;
+    justify-items: center;
+
+    .Facilities {
+        text-align: center;
+        width: 20em;
+        padding: 10px;
+        border: 1px solid #e5e5e5;
+        border-radius: 7px;
+
+        i {
+            font-size: 3rem;
+            color: $PrimeColor;
+        }
+    }
+}
+
+.Topic {
+    text-align: center;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        color: #152E40;
+    }
+}
+
+.Entrance-Table {
+    .Entrance {
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+            thead {
+                th {
+                    padding: 5px;
+                    border: 0.5px solid #c8c8c8;
+
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        padding: 10px;
+                        border: 0.5px solid #c8c8c8;
+                        a {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
